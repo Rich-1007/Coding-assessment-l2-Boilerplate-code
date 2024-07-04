@@ -2,6 +2,9 @@ console.log("====================================");
 console.log("Connected");
 console.log("====================================");
 
+// Since the API image link is not working, 
+// I am using the relative path for the images instead.
+// If needed, I can adjust as per given instructions.
 const imagesArr = [
   "./Images/Thumbnail.png",
   "./Images/Thumbnail-2.png",
@@ -122,6 +125,9 @@ const setAboutProduct = (text) => {
   aboutProduct.innerHTML = text;
 };
 
+// Since the API image link is not working, 
+// I am using the relative path for the images instead.
+// If needed, I can adjust as per given instructions.
 const imgContainer = document.querySelector(".sample_img_container");
 imagesArr.forEach((item) => {
   const img = document.createElement("img");
